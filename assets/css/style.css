@@ -1,4 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/*nav bar styling*/
+
+ul {
+    list-style-type: none;
+}
 
 #hero-bg {
     background-image: url(../images/hero-img.jpg);
@@ -6,6 +13,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin-bottom: 15px;
 }
 
 #hero-bg a, #hero-bg i {
@@ -14,32 +22,55 @@
 
 #hero-bg i {
     font-size: 30px;
+    padding-left: 10px;
 }
 
 #store-items {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+/*title*/
 
-#shop-mens-bg {
+.title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title DIV {
+    font-family: "Cinzel", serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+/*split*/
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+/*shop mens*/
+
+.shop-mens-bg {
     background-image: url(../images/shop-mens.jpg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 60vh;
 }
 
-#menu-toggle-btn i  {
-    background-color: rgba(255,255,255,0.01);
+/* shop accessories*/
+
+.shop-accessories-bg {
+    background-image: url(../images/shop-accessories.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
 }
 
-.dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.9);
+.division {
+    height: 15px;
+    background-color: white;
 }
-
-
-@media screen and (min-width: 575px) {
-    .dropdown-menu {
-        transform: translate(-130px, 18px);
-    }
-  } 
