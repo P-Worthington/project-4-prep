@@ -50,10 +50,10 @@ ul {
     flex-direction: column;
 }
 
-/*shop mens*/
+/*shop shoes and accesories*/
 
-.shop-mens-bg {
-    background-image: url(../images/shop-mens.jpg);
+.shop-shoes-bg {
+    background-image: url(../images/shop-shoes.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -74,3 +74,35 @@ ul {
     height: 15px;
     background-color: white;
 }
+
+/*shop mens*/
+
+.shop-mens-bg {
+    background-image: url(../images/shop-mens.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 965px) {
+    .split {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+    }
+
+    .shop-shoes-bg {
+        width: 50%;
+    }
+
+    .shop-accessories-bg {
+        width: 50%;
+    }
+
+    .division {
+        height: 60vh;
+        width: 15px;
+    }
+  }
