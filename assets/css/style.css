@@ -8,6 +8,23 @@
     background-size: cover;
 }
 
-#hero-bg a {
+#hero-bg a, #hero-bg i {
     color: aliceblue;
+}
+
+#hero-bg i {
+    font-size: 30px;
+}
+
+#store-items {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+#shop-mens-bg {
+    background-image: url(../images/shop-mens.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
