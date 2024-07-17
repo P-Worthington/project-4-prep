@@ -9,7 +9,7 @@
 }
 
 #hero-bg a, #hero-bg i {
-    color: aliceblue;
+    color: whitesmoke;
 }
 
 #hero-bg i {
@@ -28,3 +28,18 @@
     background-position: center center;
     background-size: cover;
 }
+
+#menu-toggle-btn i  {
+    background-color: rgba(255,255,255,0.01);
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+@media screen and (min-width: 575px) {
+    .dropdown-menu {
+        transform: translate(-130px, 18px);
+    }
+  } 
