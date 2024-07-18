@@ -156,6 +156,7 @@ ul {
 /*featured*/
 .featured-title {
     margin-top: 15PX;
+    margin-bottom: 10px;
 }
 
 .featured-title h2 {
@@ -173,10 +174,15 @@ ul {
 
 .carousel-content {
     position: absolute;
-    bottom: 0;
+    z-index: 98;
+    bottom: 80px;
     left: 0;
     right: 0;
     padding-bottom: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 .overlay-image {
@@ -193,6 +199,11 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .slide-2 {
@@ -200,6 +211,11 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .slide-3 {
@@ -207,6 +223,37 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.carousel-content h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.carousel-content p {
+    margin-top: -20px;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+.carousel-content a {
+    color: black;
+    letter-spacing: 1px;
+}
+
+/*footer*/
+footer {
+    background-color: #000;
+    height: 900px;
+    margin-top: 15px;
 }
 
 @media screen and (min-width: 965px) {
