@@ -163,6 +163,21 @@ ul {
     text-align: center;
 }
 
+/*carousel*/
+
+.carousel-item {
+    height: 60vh;
+    background-color: #777;
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
 
 @media screen and (min-width: 965px) {
     .split {
