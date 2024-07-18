@@ -236,10 +236,10 @@ ul {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .carousel-content p {
-    margin-top: -20px;
     font-family: "Cinzel", serif;
     font-weight: 500;
 }
@@ -254,6 +254,18 @@ footer {
     background-color: #000;
     height: 900px;
     margin-top: 15px;
+    position: relative;
+}
+
+.footer-brand {
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 100px;
+    font-family: "Cinzel", serif;
 }
 
 @media screen and (min-width: 965px) {
