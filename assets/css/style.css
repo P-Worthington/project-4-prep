@@ -5,17 +5,32 @@
 
 /*nav bar styling*/
 
+#scroll-header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgba(43, 43, 43, 0.7);
+}
+
+#scroll-header a {
+    font-family: "Cinzel", serif;
+    color: whitesmoke;
+    letter-spacing: 5px;
+}
+
 ul {
     list-style-type: none;
 }
 
 #hero-bg {
+    position: relative;
     background-image: url(../images/hero-img.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     margin-bottom: 15px;
+    margin-top: -60px;
 }
 
 #hero-bg a, #hero-bg i {
@@ -34,6 +49,9 @@ ul {
 /*title*/
 
 .title {
+    position: absolute;
+    top: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -60,6 +78,7 @@ ul {
     background-position: center center;
     background-size: cover;
     height: 60vh;
+    position: relative;
 }
 
 /* shop accessories*/
@@ -70,6 +89,7 @@ ul {
     background-position: center center;
     background-size: cover;
     height: 60vh;
+    position: relative;
 }
 
 .division {
@@ -86,10 +106,11 @@ ul {
     background-size: cover;
     height: 60vh;
     margin-top: 15px;
+    position: relative;
 }
 
 /*info*/
-.info, .info-shoes, .info-accessories, .info-mens {
+.info {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -105,16 +126,22 @@ ul {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 20px;
+    color: whitesmoke;
 }
 
 .info-link {
     background-color: white;
     color: black;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info-title h2 {
@@ -123,7 +150,19 @@ ul {
 
 .info-link h4 {
     font-family: "Montserrat", sans-serif;
+    font-size: 16px;
 }
+
+/*featured*/
+.featured-title {
+    margin-top: 15PX;
+}
+
+.featured-title h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
 
 @media screen and (min-width: 965px) {
     .split {
